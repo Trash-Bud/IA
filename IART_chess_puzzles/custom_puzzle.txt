@@ -1,0 +1,7 @@
+8
+1 1 Queen
+2 3 King
+7 1 Rook
+5 5 Knight
+
+4 7 Bishop

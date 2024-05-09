@@ -1,0 +1,8 @@
+4.1
+
+Representação: 
+
+[[Disciplina1, ...],[...],[...],[...]] -> não se podem repetir disciplinas
+			ou
+[SlotD1, SlotD2, ..., SlotD12]
+

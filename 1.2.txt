@@ -1,0 +1,31 @@
+Representar o Estado: Matriz com o tamanho do tabuleiro e com inteiros a representar as peças
+				  (x,y) -> posição do espaço vazio
+
+Estado inicial: Qualquer permutação das peças
+
+	Exemplo:
+
+	((7,1,3),
+  	(4,5,8),
+  	(3,8,0))      (3,3)
+
+Estado final:
+
+((1,2,3),
+ (4,5,6),
+ (7,8,0))      (3,3) 
+
+Operadores 	   Pré-condições     		 		Efeitos
+
+Up				 y > 1			y = y - 1 e p[x,y] = p[x,y-1] e p[x,y-1] = 0 
+
+Down				 y < 3			y = y + 1 e p[x,y] = p[x,y+1] e p[x,y+1] = 0 
+
+Left				 x > 1			x = x - 1 e p[x,y] = p[x-1,y] e p[x-1,y] = 0
+
+Right			 x < 3			x = x + 1 e p[x,y] = p[x+1,y] e p[x+1,y] = 0
+
+
+Todas as operações têm o mesmo custo
+
+
